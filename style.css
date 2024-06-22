@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif:wght@400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+    color: hsl(24, 5%, 18%);
+}
+main{
+    width: 627px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 20px;
+    
+}
+main img{
+    width: 620px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+main h1{
+    font-family: 'Young Serif', serif;
+    font-weight: normal;
+    margin:20px 0px;
+    color: hsl(24, 5%, 18%);
+}
+main .description{
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    line-height: 25px;
+    color: hsl(30, 10%, 34%);
+}
+main .preparation{
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    margin:30px 0px;
+    background-color: hsl(330, 100%, 98%);
+}
+main .preparation header{
+    color: hsl(332, 51%, 32%);
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 27px;
+}
+main .preparation ul{
+    margin-top: 15px;
+    margin-left: 50px;
+    color: hsl(30, 10%, 34%);
+}
+main .preparation li{
+    margin-top: 10px;
+}
+main .preparation li::marker{
+    color: hsl(332, 51%, 32%);
+}
+main .bold_items{
+    font-weight: bolder;
+    margin-left: 15px;
+}
+main .headings{
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif', serif;
+    font-weight: normal;
+}
+main .ingredients{
+    margin: 25px 0px;
+}
+main .ingredients ul{
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    color: hsl(30, 10%, 34%);
+    margin-left: 20px;
+    margin-top: 15px;
+}
+main .ingredients li{
+    margin-top: 8px;
+}
+main .ingredients li::marker{
+    color: hsl(14, 45%, 36%);
+}
+main .ingredients li span{
+    margin-left: 15px;
+}
+main .instructions{
+    margin: 20px 0px;
+}
+main .instructions ol{
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: hsl(30, 10%, 34%);
+}
+main .instructions ol li{
+    text-indent: -0.9em; /* Adjust this value as needed */
+    line-height: 25px;
+}
+main .instructions ol li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+main .Nutrition h2{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+main .Nutrition table,p{
+    color: hsl(30, 10%, 34%);
+    font-family: 'Outfit', sans-serif;
+    margin-bottom: 20px;
+}
+main .Nutrition table{
+    border-collapse: collapse;
+}
+main .Nutrition table tr{
+    line-height: 50px;
+}
+main .Nutrition table td{
+    width: 600px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    height: 10px;
+    padding: 0px 20px;
+}
+main .Nutrition table .first{
+    color: hsl(30, 10%, 34%);
+}
+main .Nutrition table .second{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+hr{
+   border: 1px solid hsl(30, 18%, 87%);
+}
